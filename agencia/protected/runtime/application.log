@@ -1,0 +1,847 @@
+2020/09/02 11:09:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiitest.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/02 11:43:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "login". in E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/agencia/index.php?r=login
+---
+2020/09/02 11:47:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "tlbUser/_form". in E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tlbUser/_form')
+#1 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/agencia/index.php?r=tlbUser/_form
+---
+2020/09/02 11:47:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "tlblUser/_form". in E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tlblUser/_form')
+#1 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/agencia/index.php?r=tlblUser/_form
+---
+2020/09/02 11:47:36 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "_form". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('_form')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('_form')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblUser/_form')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php?r=tblUser/_form
+---
+2020/09/02 11:48:48 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "_form". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('_form')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('_form')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblUser/_form')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php?r=tblUser/_form&view=
+---
+2020/09/02 11:49:57 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "_form.php". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('_form.php')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('_form.php')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblUser/_form.p...')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php?r=tblUser/_form.php
+---
+2020/09/02 12:16:26 [error] [exception.CException] CException: Property "CMenu.class" is not defined. in E:\vulxampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'navbar-nav ml-a...')
+#1 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CMenu', Array)
+#2 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('zii.widgets.CMe...', Array)
+#3 E:\vulxampp\htdocs\yii\agencia\protected\views\layouts\main.php(56): CBaseController->widget('zii.widgets.CMe...', Array)
+#4 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\\vulxampp\\htd...')
+#5 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\\vulxampp\\htd...', Array, true)
+#6 E:\vulxampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('E:\\vulxampp\\htd...', Array, true)
+#7 E:\vulxampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 E:\vulxampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#10 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#11 E:\vulxampp\htdocs\yii\agencia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\\vulxampp\\htd...')
+#13 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\\vulxampp\\htd...', Array, true)
+#14 E:\vulxampp\htdocs\yii\framework\web\CController.php(787): CBaseController->renderFile('E:\\vulxampp\\htd...', Array, true)
+#15 E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php(32): CController->render('index')
+#16 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#22 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/index
+HTTP_REFERER=http://localhost/yii/agencia/index.php?r=site/login
+---
+2020/09/02 12:17:30 [error] [php] Illegal string offset 'id' (E:\vulxampp\htdocs\yii\framework\zii\widgets\CMenu.php:159)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\agencia\protected\views\layouts\main.php(56): SiteController->widget()
+#1 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 E:\vulxampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#4 E:\vulxampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 E:\vulxampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(215): CContentDecorator->run()
+#7 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(309): SiteController->endWidget()
+#8 E:\vulxampp\htdocs\yii\agencia\protected\views\layouts\column1.php(6): SiteController->endContent()
+#9 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#10 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#11 E:\vulxampp\htdocs\yii\framework\web\CController.php(787): SiteController->renderFile()
+#12 E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php(32): SiteController->render()
+#13 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#16 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#18 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php?r=site/index
+in E:\vulxampp\htdocs\yii\agencia\protected\views\layouts\main.php (56)
+in E:\vulxampp\htdocs\yii\agencia\protected\views\layouts\column1.php (6)
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php (32)
+2020/09/04 09:29:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "gii". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('gii')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/gii
+---
+2020/09/04 09:40:29 [error] [exception.CException] CException: SiteController cannot find the requested view "Register". in E:\vulxampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('Register', Array, true)
+#1 E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php(132): CController->render('Register', Array)
+#2 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#8 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/register
+---
+2020/09/04 09:40:37 [error] [exception.CException] CException: SiteController cannot find the requested view "Register". in E:\vulxampp\htdocs\yii\framework\web\CController.php:881
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('Register', Array, true)
+#1 E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php(132): CController->render('Register', Array)
+#2 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#8 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/Register
+---
+2020/09/04 09:42:18 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "actionregister". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('actionregister')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('actionregister')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/actionregi...')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/actionregister
+---
+2020/09/04 09:42:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "actionRegister". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('actionRegister')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('actionRegister')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/actionRegi...')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/actionRegister
+---
+2020/09/04 09:42:57 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "actions". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('actions')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('actions')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/actions')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/actions
+---
+2020/09/04 09:43:00 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "action". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('action')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('action')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/action')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/action
+---
+2020/09/04 09:44:47 [error] [exception.CException] CException: Property "TblUser.rememberMe" is not defined. in E:\vulxampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('rememberMe')
+#1 E:\vulxampp\htdocs\yii\framework\web\helpers\CHtml.php(2760): CActiveRecord->__get('rememberMe')
+#2 E:\vulxampp\htdocs\yii\framework\web\helpers\CHtml.php(1933): CHtml::resolveValue(Object(TblUser), 'rememberMe')
+#3 E:\vulxampp\htdocs\yii\framework\web\widgets\CActiveForm.php(899): CHtml::activeCheckBox(Object(TblUser), 'rememberMe', Array)
+#4 E:\vulxampp\htdocs\yii\agencia\protected\views\site\register.php(41): CActiveForm->checkBox(Object(TblUser), 'rememberMe')
+#5 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\\vulxampp\\htd...')
+#6 E:\vulxampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\\vulxampp\\htd...', Array, true)
+#7 E:\vulxampp\htdocs\yii\framework\web\CController.php(872): CBaseController->renderFile('E:\\vulxampp\\htd...', Array, true)
+#8 E:\vulxampp\htdocs\yii\framework\web\CController.php(785): CController->renderPartial('Register', Array, true)
+#9 E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php(132): CController->render('Register', Array)
+#10 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/register
+---
+2020/09/04 10:12:23 [error] [exception.CException] CException: TblUser and its behaviors do not have a method or closure named "login". in E:\vulxampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('login', Array)
+#1 E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php(130): CActiveRecord->__call('login', Array)
+#2 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#8 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/register
+HTTP_REFERER=http://localhost/yii/agencia/index.php?r=site/register
+---
+2020/09/04 10:13:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'pepe-pepe@gmail.com' for key 'tbl_user.username'. The SQL statement executed was: INSERT INTO `tbl_user` (`email`, `username`, `password`) VALUES (:yp0, :yp1, :yp2).
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php (129)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/04 10:13:39 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'pepe-pepe@gmail.com' for key 'tbl_user.username'. The SQL statement executed was: INSERT INTO `tbl_user` (`email`, `username`, `password`) VALUES (:yp0, :yp1, :yp2) in E:\vulxampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php(129): CActiveRecord->save()
+#3 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#8 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#9 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/register
+HTTP_REFERER=http://localhost/yii/agencia/index.php?r=site/register
+---
+2020/09/04 10:13:50 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'pepe-pepe@gmail.com' for key 'tbl_user.username'. The SQL statement executed was: INSERT INTO `tbl_user` (`email`, `username`, `password`) VALUES (:yp0, :yp1, :yp2).
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php (129)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/04 10:13:50 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'pepe-pepe@gmail.com' for key 'tbl_user.username'. The SQL statement executed was: INSERT INTO `tbl_user` (`email`, `username`, `password`) VALUES (:yp0, :yp1, :yp2) in E:\vulxampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php(129): CActiveRecord->save()
+#3 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#8 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#9 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/agencia/index.php?r=site/register
+HTTP_REFERER=http://localhost/yii/agencia/index.php?r=site/register
+---
+2020/09/04 10:14:01 [warning] [application] Failed to set unsafe attribute "email" of "LoginForm".
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php (131)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/04 10:41:23 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in E:\vulxampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\vulxampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\vulxampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 E:\vulxampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\vulxampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblGrupo/admin')
+#9 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/agencia/index.php?r=tblGrupo/admin
+HTTP_REFERER=http://localhost/yii/agencia/index.php
+---
+2020/09/04 11:48:15 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in E:\vulxampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\vulxampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\vulxampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 E:\vulxampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\vulxampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblGrupo/admin')
+#9 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/agencia/index.php/tblGrupo/admin
+HTTP_REFERER=http://localhost/yii/agencia/index.php?r=api/list
+---
+2020/09/04 11:48:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "api". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('api')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('api')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/api/list')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/site/api/list
+---
+2020/09/04 11:48:46 [error] [php] Undefined index: model (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:28)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php//api/list
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (28)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/04 11:49:28 [error] [php] include(Post.php): failed to open stream: No such file or directory (E:\vulxampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(31): spl_autoload_call()
+#1 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionList()
+#2 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/posts
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (31)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/04 11:59:15 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "grupos". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('grupos')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('grupos')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/grupos')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/site/grupos
+HTTP_REFERER=http://localhost/yii/agencia/index.php
+---
+2020/09/07 09:14:58 [error] [php] Indirect modification of overloaded property TblUser::$attributes has no effect (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:52)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/usuarios
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (52)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 09:15:58 [error] [php] Attempt to assign property 'password' of non-object (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:53)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/usuarios
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (53)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 10:44:39 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "server.php". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('server.php')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('server.php')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/server.php')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/site/server.php
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 10:44:50 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "server.php". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('server.php')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('server.php')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/server.php')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/site/server.php
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 10:47:10 [error] [php] Undefined index: model (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:86)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/create/grupos
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (86)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 10:50:02 [error] [php] Undefined index: model (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:86)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/create/grupos
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (86)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 10:53:46 [error] [php] Invalid argument supplied for foreach() (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:114)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/create/grupos/?model=grupos
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (114)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 10:54:31 [error] [php] Invalid argument supplied for foreach() (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:114)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/create/grupos/?model=grupos
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (114)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 10:55:02 [error] [php] Invalid argument supplied for foreach() (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:115)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/create/grupos/?model=grupos
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (115)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:21:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "grupos". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('grupos')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('grupos')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/grupos')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 11:21:58 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "grupos". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('grupos')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('grupos')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/grupos')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+---
+2020/09/07 11:23:18 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "usuarios". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('usuarios')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('usuarios')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/usuarios')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/usuarios/17
+---
+2020/09/07 11:24:05 [error] [php] Undefined index: model (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:66)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/view/usuarios/?id=1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (66)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:24:43 [error] [php] Undefined index: model (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:66)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/view/usuarios/?id=1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (66)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:24:55 [error] [php] Undefined index: model (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:66)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/view/usuarios/usuarios/?id=1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (66)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:26:54 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "2". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('2')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('2')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/2/2/2')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/2/2/2/
+---
+2020/09/07 11:26:58 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "2". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('2')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('2')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/2')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/2/2
+---
+2020/09/07 11:27:01 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "2". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('2')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('2')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/2')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/2/2/
+---
+2020/09/07 11:27:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "grupos". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('grupos')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('grupos')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/grupos')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/2/
+---
+2020/09/07 11:27:12 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "grupos". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('grupos')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('grupos')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/grupos')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/2
+---
+2020/09/07 11:27:29 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "grupos". in E:\vulxampp\htdocs\yii\framework\web\CController.php:486
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('grupos')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('grupos')
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/grupos')
+#3 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/2
+---
+2020/09/07 11:33:10 [error] [php] include(Post.php): failed to open stream: No such file or directory (E:\vulxampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(70): spl_autoload_call()
+#1 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#2 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (70)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:33:41 [error] [exception.CDbException] CDbException: Column name must be either a string or an array. in E:\vulxampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php:831
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(624): CDbCommandBuilder->createInCondition(Object(CMysqlTableSchema), NULL, Array, '`t`.')
+#1 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1493): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#2 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(70): CActiveRecord->findByPk('1')
+#3 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#8 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 11:34:29 [error] [exception.CDbException] CDbException: Column name must be either a string or an array. in E:\vulxampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php:831
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(624): CDbCommandBuilder->createInCondition(Object(CMysqlTableSchema), NULL, Array, '`t`.')
+#1 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1493): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), Array, 'user_id', Array, '`t`.')
+#2 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(70): CActiveRecord->findByPk('1', 'user_id')
+#3 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#8 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 11:34:50 [error] [exception.CDbException] CDbException: Column name must be either a string or an array. in E:\vulxampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php:831
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(624): CDbCommandBuilder->createInCondition(Object(CMysqlTableSchema), NULL, Array, '`t`.')
+#1 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1493): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), Array, '1', Array, '`t`.')
+#2 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(70): CActiveRecord->findByPk('user_id', '1')
+#3 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#8 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 11:37:25 [error] [exception.CException] CException: TblUsuariosGrupos and its behaviors do not have a method or closure named "andFilterWhere". in E:\vulxampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('andFilterWhere', Array)
+#1 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(70): CActiveRecord->__call('andFilterWhere', Array)
+#2 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/view')
+#8 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 11:39:13 [error] [php] A non-numeric value encountered (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:70)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (70)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:42:30 [error] [php] Invalid argument supplied for foreach() (E:\vulxampp\htdocs\yii\framework\db\ar\CActiveFinder.php:470)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): TblUsuariosGrupos->getRelated()
+#1 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(71): TblUsuariosGrupos->__get()
+#2 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (71)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:43:16 [error] [php] Invalid argument supplied for foreach() (E:\vulxampp\htdocs\yii\framework\db\ar\CActiveFinder.php:470)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): TblUsuariosGrupos->getRelated()
+#1 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(71): TblUsuariosGrupos->__get()
+#2 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (71)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:44:21 [error] [php] include(TblGrupos.php): failed to open stream: No such file or directory (E:\vulxampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(71): spl_autoload_call()
+#1 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#2 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (71)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:44:40 [error] [exception.CException] CException: Property "TblUsuariosGrupos.Grupos" is not defined. in E:\vulxampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\db\ar\CActiveRecord.php(162): CComponent->__set('Grupos', Object(TblGrupo))
+#1 E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php(71): CActiveRecord->__set('Grupos', Object(TblGrupo))
+#2 E:\vulxampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ApiController->actionView()
+#3 E:\vulxampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#7 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/view')
+#8 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 11:47:37 [error] [exception.ParseError] ParseError: syntax error, unexpected 'TblGrupo' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$' in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:73
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('view/')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/view')
+#2 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 11:47:37 [error] [exception.ParseError] ParseError: syntax error, unexpected 'TblGrupo' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$' in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:73
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('list/')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/list')
+#2 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/agencia/index.php/api/usuarios
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 11:48:01 [error] [php] Trying to get property 'group_id' of non-object (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:73)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (73)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:48:59 [error] [php] Illegal string offset 'group_id' (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:73)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (73)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:49:38 [error] [php] Trying to get property 'attributes' of non-object (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:74)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (74)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:52:58 [error] [php] Trying to get property 'attributes' of non-object (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:72)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (72)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 11:53:16 [error] [php] Trying to get property 'attributes' of non-object (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:72)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (72)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 12:09:27 [error] [exception.ParseError] ParseError: syntax error, unexpected 'break' (T_BREAK) in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:88
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('view/')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/view')
+#2 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 12:09:27 [error] [exception.ParseError] ParseError: syntax error, unexpected 'break' (T_BREAK) in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:88
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('list/')
+#1 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/list')
+#2 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 E:\vulxampp\htdocs\yii\agencia\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yii/agencia/index.php/api/usuarios
+HTTP_REFERER=http://localhost/yii/agencia/index.php/site/grupos
+---
+2020/09/07 12:09:37 [error] [php] Trying to get property 'attributes' of non-object (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:80)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (80)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 12:10:17 [error] [php] Trying to get property 'attributes' of non-object (E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php:81)
+Stack trace:
+#0 E:\vulxampp\htdocs\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 E:\vulxampp\htdocs\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 E:\vulxampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\vulxampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\vulxampp\htdocs\yii\agencia\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/agencia/index.php/api/grupos/1
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (81)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
