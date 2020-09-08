@@ -125,7 +125,12 @@ class ApiController extends Controller
         }
         // Try to save the model
         if($model->save()){
+
             if(isset($_POST['users']) && $_GET['model'] == 'grupos'){
+
+                $NewGroup = array();
+                $NewGroup['name'] = $model->name;
+                $NewGroup['users'] = array();
 
                 $users = $_POST['users'];
                 foreach($users as $user){
@@ -134,9 +139,13 @@ class ApiController extends Controller
                     $Rmodel->group_id = $model->id;
                     $Rmodel->bote = 0;
                     $Rmodel->save();
+                    $NewGroup['users'][] = $Rmodel;
                 }
 
+                $model = $NewGroup;
+
             }
+
             $this->_sendResponse(200, CJSON::encode($model));
         }else {
             // Errors occurred

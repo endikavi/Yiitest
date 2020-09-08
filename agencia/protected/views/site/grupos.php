@@ -46,7 +46,7 @@ $this->breadcrumbs=array(
 </div>
 
 <!-- Modal AddMoney-->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="ModalMoney" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -95,7 +95,7 @@ window.onload = function() {
         PrintUsers(JSON.parse(data));
 
         //Get a grupos en los que estas
-        $.get( Base_Url+Url_Groups+'/1', function( data ) {
+        $.get( Base_Url+Url_Groups+'/'+AUser_ID, function( data ) {
             Group_List=JSON.parse(data);
             PrintGroups(Group_List);
         });
@@ -137,7 +137,7 @@ function PrintGroups(Data){
                 <ul class="list-group list-group-flush">${Gbody.join('')}</ul>
                 </div>
                 <div class="card-footer">
-                <a href="#" class="btn btn-primary AddMoneyTo" >Agregar Dinero</a>
+                <a href="#" class="btn btn-primary AddMoneyTo" data-groupName="${Group.name}" data-groupID="${Group.users[0].group_id}" >Agregar Dinero</a>
                 <a href="#" class="btn btn-primary">Modificar</a>
                 </div>
             </div>
@@ -146,7 +146,7 @@ function PrintGroups(Data){
 
     }))
 
-    $('AddMoneyTo').on( "click", AddMoneyModal )
+    $('.AddMoneyTo').on( "click", AddMoneyModal )
 
 }
 
@@ -156,7 +156,14 @@ function CreateNewGroup(){
 
     Data.users.push(AUser_ID);
 
-    $.post(Base_Url+Url_Groups, Data);
+    $.post(Base_Url+Url_Groups, Data, function(data){
+
+      console.log(JSON.parse(data));
+      Group_List.push(JSON.parse(data));
+      PrintGroups(Group_List);
+      $('#exampleModal').modal('hide');
+
+    });
 
 }
 
@@ -164,7 +171,8 @@ function CreateNewGroup(){
 
 function AddMoneyModal(){
 
-
+  $('#ModalMoney').modal('show');
+  $('#ModalAMT').html(this.dataset.groupname);
 
 }
 

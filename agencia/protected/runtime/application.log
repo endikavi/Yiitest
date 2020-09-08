@@ -845,3 +845,9 @@ Stack trace:
 REQUEST_URI=/yii/agencia/index.php/api/grupos/1
 in E:\vulxampp\htdocs\yii\agencia\protected\controllers\ApiController.php (81)
 in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 18:27:29 [warning] [application] Failed to set unsafe attribute "email" of "LoginForm".
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php (131)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
+2020/09/07 18:56:27 [warning] [application] Failed to set unsafe attribute "email" of "LoginForm".
+in E:\vulxampp\htdocs\yii\agencia\protected\controllers\SiteController.php (131)
+in E:\vulxampp\htdocs\yii\agencia\index.php (13)
